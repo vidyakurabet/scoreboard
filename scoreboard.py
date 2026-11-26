@@ -27,7 +27,7 @@ class Scoreboard:
 
 if __name__ == "__main__":
     sb = Scoreboard()
-    with open("C:/Users/ACER/Desktop/scores.txt") as f:
+    with open("scores.txt") as f:
         for line in f:
             if line.strip():
                 s = int(line)
